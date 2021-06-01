@@ -22,7 +22,7 @@ func TestTerraformAzureExample(t *testing.T) {
 
 	terraformOptions := &terraform.Options{
 		// The path to where our Terraform code is located
-		TerraformDir: "../../Terratest/sample/terraform-azure-example",
+		TerraformDir: "./terratest/examples",
 		Vars: map[string]interface{}{
 			"postfix": uniquePostfix,
 		},
